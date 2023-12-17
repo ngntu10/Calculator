@@ -1,0 +1,64 @@
+.cal {
+  display: block;
+  width: 300px;
+  height: 370px;
+  padding: 10px;
+  /* background-color: #ccc; */
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.cal .display {
+  display: block;
+  width: 295px;
+  height: 50px;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  position: relative;
+}
+
+button {
+  width: calc(33% - 3px);
+  height: calc(285px / 6);
+  color: #fff;
+  border-radius: 8px;
+  font-size: 20px;
+  border: none;
+  margin-bottom: 4px;
+}
+.row-1 button:first-child {
+  background-color: #d9534f;
+}
+.row-1 button:nth-child(2) {
+  background-color: #f0ad4e;
+}
+.row-1 button:nth-child(3) {
+  background-color: #5cb85c;
+}
+.row-2 button {
+  background-color: #5cb85c;
+}
+
+.number {
+  background-color: #4285ca;
+}
+
+.dot,
+.ans {
+  background-color: #5bbfdd;
+}
+
+.input {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.output {
+  padding: 5px;
+  font-size: 20px;
+  position: absolute;
+  top: 45%;
+  left: 85%;
+}
